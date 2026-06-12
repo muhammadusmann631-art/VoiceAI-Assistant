@@ -1,38 +1,16 @@
-# VoiceAI Assistant 🎙️🤖
+# React + Vite
 
-An advanced, conversational Personal Voice AI Assistant that can listen, think, and speak back with ultra-realistic human-like voices. This project integrates cutting-edge AI models for Speech-to-Text (STT), Natural Language Processing (NLP), and Text-to-Speech (TTS).
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-*   **Speech-to-Text (STT):** Powered by **OpenAI Whisper** for highly accurate voice recognition.
-*   **Brain/AI Logic:** Powered by **OpenAI GPT** models to understand context and generate smart responses.
-*   **Text-to-Speech (TTS):** Powered by **ElevenLabs** for emotional, expressive, and realistic voice output.
-*   **Real-time Conversation:** Low-latency pipeline for a smooth voice-to-voice experience.
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🛠️ Tech Stack
+## Expanding the ESLint configuration
 
-*   **Language:** Python 🐍
-*   **STT & LLM:** OpenAI API (Whisper & GPT)
-*   **TTS:** ElevenLabs API
-
----
-
-## 📋 Prerequisites
-
-Before running the project, make sure you have:
-1. Python installed (version 3.8 or higher).
-2. An **OpenAI API Key** (from [OpenAI](https://platform.openai.com/)).
-3. An **ElevenLabs API Key** (from [ElevenLabs](https://elevenlabs.io/)).
-
----
-
-## 🔧 Installation & Setup
-
-1. **Clone the repository:**
-```bash
-   git clone [https://github.com/YOUR_USERNAME/VoiceAI-Assistant.git](https://github.com/YOUR_USERNAME/VoiceAI-Assistant.git)
-   cd VoiceAI-Assistant
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
